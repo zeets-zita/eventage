@@ -35,7 +35,6 @@ module.exports = {
   githubClientID: 'YOUR_OWN_GITHUB_CLIENT_ID',
   githubClientSecret: 'YOUR_OWN_CLIENT_SECRET',
   mongoURI: 'YOUR_OWN_MONGO_URI',
-  secretKey: 'YOUR_OWN_SECRET_KEY',
-  adminKey: 'YOUR-KEY-HERE'
+  secretKey: 'YOUR_OWN_SECRET_KEY'
 };
 ```
