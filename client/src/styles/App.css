@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Alcubierre';
+    src: url('./assets/fonts/Alcubierre.otf');
+  }
+
+* {
+    font-family: 'Helvetica';
+    color: #505050;
+}
+
+body {
+    background-color:white;
+}
+
+.mainNav {
+    background-color: #d9d9d9;
+    margin: 0;
+}
+
+#navBrand {
+    font-family: 'Alcubierre';
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Alcubierre';
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+
+.create-container {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.update-container {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #505050;
+}
+
+.event-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: right;
+  }

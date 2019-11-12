@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../../../styles/assets/fonts/BebasNeue.otf');
+  }
+
+  @font-face {
+    font-family: 'ROADWAY_';
+    src: url('../../../styles/assets/fonts/ROADWAY_.ttf');
+  }
+
+.landing-page {
+    background-image: url('../../../styles/assets/images/hall.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+h1, .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  h1 {
+      color: white;
+      font-size: 120px;
+      letter-spacing: 30px;
+      margin-bottom: 40px;
+      font-family: 'ROADWAY_';
+      font-weight: bold;
+      padding-top: 150px;
+  }
+
+  .links {
+    text-align: center;
+  }
+
+
+.authButton {
+    color: white;
+    font-size: 26px;
+    font-family: 'BebasNeue';
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform .2s;
+    letter-spacing: 6px;
+}
+
+
+.authButton:hover {
+    text-decoration: none;
+    color: #dddddd;
+    transform: scale(2);
+    font-weight: bold;
+    border: 0.5 solid black;
+}
+
+
+.vl {
+  width: 80px;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 320px) { 
+  h1 {
+    font-size: 70px;
+    letter-spacing: 10px;
+  } 
+} 
+@media (min-width: 425px) { 
+  h1 {
+    font-size: 80px;
+    letter-spacing: 20px;
+  } 
+} 
+
+@media (min-width:768px) {
+  h1 {
+    font-size: 95px;
+    letter-spacing: 30px;
+  } 
+} 
+@media (min-width:1024px) {
+  h1 {
+    font-size: 120px;
+    letter-spacing: 30px;
+  } 
+}

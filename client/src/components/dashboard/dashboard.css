@@ -1,0 +1,21 @@
+.dashboard{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../styles/assets/images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 550px;
+    height: 80vh;
+
+}
+
+.dashboardCol {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dashboard h4 {
+    padding-top: 190px;
+}
