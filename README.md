@@ -2,7 +2,7 @@
 
 A Full stack application using Node/Express/Mongoose for back end, React/Redux for front end & Passport for authentication.
 
-Live Heroku deployment: https://shielded-thicket-88467.herokuapp.com/
+Live Heroku deployment: https://powerful-anchorage-69004.herokuapp.com/
 
 
 ## Quick Start
